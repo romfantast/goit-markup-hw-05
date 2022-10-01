@@ -90,15 +90,12 @@ body {
 /* common css (header and footer) */
 /* header */
 .header {
-  position: relative;
   border-bottom: 1px solid #ececec;
 }
 
 .header-container {
   display: flex;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .header-nav {
@@ -115,6 +112,11 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
 }
+
+.header-logo {
+  /* padding: 24px 0; */
+}
+
 .blue-part {
   color: var(--accent-color);
 }
@@ -125,6 +127,10 @@ body {
 .site-list {
   display: flex;
   column-gap: 50px;
+}
+
+.site-item {
+  position: relative;
 }
 
 .contacts-list {
@@ -145,6 +151,10 @@ body {
   color: var(--accent-color);
 }
 
+.site-item {
+  padding: 24px 0;
+}
+
 .active-site-link {
   color: var(--accent-color);
 }
@@ -154,8 +164,8 @@ body {
   display: block;
   position: absolute;
   width: 100%;
-  margin: -1px;
-  width: 48px;
+  margin-bottom: -1px;
+
   bottom: 0;
   height: 4px;
   border-radius: 2px;
