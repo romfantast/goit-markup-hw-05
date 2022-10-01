@@ -179,12 +179,12 @@ body {
 
 .icon-contact {
   fill: #757575;
+ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link:hover .icon-contact,
 .link:focus .icon-contact {
   fill: var(--accent-color);
-  stroke: var(--accent-color);
 }
 
 /* footer */
